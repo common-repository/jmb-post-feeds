@@ -1,0 +1,32 @@
+/**
+ * Action buttons on the Fields, Filters & Feeds meta box tables.
+ */
+.jmb-pf-btn-icon:before {
+	display: inline-block; 
+	position: relative; 
+	vertical-align: middle; 
+	margin-bottom: 4px; 
+	font: normal 20px/1 'dashicons'; 
+	text-align: center; 
+}
+
+.jmb-pf-btn-icon.jmb-pf-btn-icon-delete:before {
+	content: "\f158"; 
+}
+.jmb-pf-btn-icon.jmb-pf-btn-icon-move:before {
+	content: "\f545"; 
+}
+.jmb-pf-btn-icon.jmb-pf-btn-icon-view:before {
+	font-size: 22px; 
+	content: "\f179"; 
+}
+.jmb-pf-btn-icon.jmb-pf-btn-icon-download:before {
+	font-size: 22px; 
+	content: "\f316"; 
+}
+
+/***/
+
+#jmb-pf-fields-table tr td {
+	vertical-align: top; 
+}
